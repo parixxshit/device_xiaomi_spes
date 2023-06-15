@@ -38,7 +38,7 @@ public class TileEntryActivity extends Activity {
         switch (sourceClass.getClassName()) {
             case REFRESH_TILE:
                 openActivitySafely(new Intent(this, RefreshActivity.class));
-                break; 
+                break;
             default:
                 finish();
                 break;
