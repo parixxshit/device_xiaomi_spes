@@ -4,6 +4,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
+TARGET_NOT_USES_BLUR := true
 
 # Inherit from spes/spesn device
 $(call inherit-product, device/xiaomi/spes/device.mk)
